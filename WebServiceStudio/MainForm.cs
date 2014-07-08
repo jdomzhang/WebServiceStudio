@@ -174,6 +174,8 @@ namespace WebServiceStudio
             hideSpecifiedFieldForOutputToolStripMenuItem.Checked = Configuration.MasterConfig.OtherSettings.HideSpecifiedFieldForOutput;
 
             this.msMain.Renderer = new RadioCheckRenderer();    //To show Radio button when menu item is checked
+
+            simplifiedToolStripMenuItem_Click(this, new EventArgs());
         }
 
         public class RadioCheckRenderer : ToolStripProfessionalRenderer

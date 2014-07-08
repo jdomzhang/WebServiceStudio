@@ -183,27 +183,30 @@ namespace WebServiceStudio
             // itemCopyAsmIssue
             // 
             itemCopyAsmIssue.Name = "itemCopyAsmIssue";
-            itemCopyAsmIssue.Size = new System.Drawing.Size(145, 22);
+            itemCopyAsmIssue.Size = new System.Drawing.Size(152, 22);
             itemCopyAsmIssue.Text = "CopyAsmIssue";
             // 
             // itemFind2
             // 
             itemFind2.Name = "itemFind2";
             itemFind2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            itemFind2.Size = new System.Drawing.Size(132, 22);
+            itemFind2.Size = new System.Drawing.Size(137, 22);
             itemFind2.Text = "Find";
             // 
             // textEndPointUri
             // 
+            this.textEndPointUri.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textEndPointUri.Location = new System.Drawing.Point(109, 6);
             this.textEndPointUri.Name = "textEndPointUri";
-            this.textEndPointUri.Size = new System.Drawing.Size(474, 21);
+            this.textEndPointUri.Size = new System.Drawing.Size(551, 21);
             this.textEndPointUri.TabIndex = 4;
             this.textEndPointUri.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textEndPointUri_KeyPress);
             // 
             // buttonGet
             // 
-            this.buttonGet.Location = new System.Drawing.Point(609, 3);
+            this.buttonGet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonGet.Location = new System.Drawing.Point(686, 3);
             this.buttonGet.Name = "buttonGet";
             this.buttonGet.Size = new System.Drawing.Size(70, 24);
             this.buttonGet.TabIndex = 7;
@@ -252,7 +255,7 @@ namespace WebServiceStudio
             this.tabPageInvoke.Controls.Add(this.panelLeftInvoke);
             this.tabPageInvoke.Location = new System.Drawing.Point(4, 22);
             this.tabPageInvoke.Name = "tabPageInvoke";
-            this.tabPageInvoke.Size = new System.Drawing.Size(944, 482);
+            this.tabPageInvoke.Size = new System.Drawing.Size(1022, 621);
             this.tabPageInvoke.TabIndex = 0;
             this.tabPageInvoke.Tag = "";
             this.tabPageInvoke.Text = "Invoke";
@@ -263,7 +266,7 @@ namespace WebServiceStudio
             this.splitterInvoke.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitterInvoke.Location = new System.Drawing.Point(208, 0);
             this.splitterInvoke.Name = "splitterInvoke";
-            this.splitterInvoke.Size = new System.Drawing.Size(3, 482);
+            this.splitterInvoke.Size = new System.Drawing.Size(3, 621);
             this.splitterInvoke.TabIndex = 0;
             this.splitterInvoke.TabStop = false;
             // 
@@ -273,7 +276,7 @@ namespace WebServiceStudio
             this.panelRightInvoke.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRightInvoke.Location = new System.Drawing.Point(208, 0);
             this.panelRightInvoke.Name = "panelRightInvoke";
-            this.panelRightInvoke.Size = new System.Drawing.Size(736, 482);
+            this.panelRightInvoke.Size = new System.Drawing.Size(814, 621);
             this.panelRightInvoke.TabIndex = 1;
             // 
             // splitterInvokeMain
@@ -291,8 +294,8 @@ namespace WebServiceStudio
             // splitterInvokeMain.Panel2
             // 
             this.splitterInvokeMain.Panel2.Controls.Add(this.splitterOutput);
-            this.splitterInvokeMain.Size = new System.Drawing.Size(736, 482);
-            this.splitterInvokeMain.SplitterDistance = 236;
+            this.splitterInvokeMain.Size = new System.Drawing.Size(814, 621);
+            this.splitterInvokeMain.SplitterDistance = 304;
             this.splitterInvokeMain.TabIndex = 6;
             // 
             // splitterInput
@@ -316,15 +319,15 @@ namespace WebServiceStudio
             this.splitterInput.Panel2.Controls.Add(this.txtInvokeTimes);
             this.splitterInput.Panel2.Controls.Add(this.labelInputValue);
             this.splitterInput.Panel2.Controls.Add(this.propInput);
-            this.splitterInput.Size = new System.Drawing.Size(732, 232);
-            this.splitterInput.SplitterDistance = 372;
+            this.splitterInput.Size = new System.Drawing.Size(810, 300);
+            this.splitterInput.SplitterDistance = 411;
             this.splitterInput.TabIndex = 0;
             // 
             // chkAutoSetSpecified
             // 
             this.chkAutoSetSpecified.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.chkAutoSetSpecified.AutoSize = true;
-            this.chkAutoSetSpecified.Location = new System.Drawing.Point(250, 8);
+            this.chkAutoSetSpecified.Location = new System.Drawing.Point(289, 8);
             this.chkAutoSetSpecified.Name = "chkAutoSetSpecified";
             this.chkAutoSetSpecified.Size = new System.Drawing.Size(114, 17);
             this.chkAutoSetSpecified.TabIndex = 4;
@@ -340,7 +343,7 @@ namespace WebServiceStudio
             this.treeInput.HideSelection = false;
             this.treeInput.Location = new System.Drawing.Point(0, 29);
             this.treeInput.Name = "treeInput";
-            this.treeInput.Size = new System.Drawing.Size(365, 196);
+            this.treeInput.Size = new System.Drawing.Size(404, 264);
             this.treeInput.TabIndex = 0;
             this.treeInput.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeInput_AfterSelect);
             // 
@@ -352,7 +355,7 @@ namespace WebServiceStudio
             this.itemFind1,
             this.itemLoadValueField});
             this.cmenuInputTree.Name = "cmenuLoad";
-            this.cmenuInputTree.Size = new System.Drawing.Size(163, 92);
+            this.cmenuInputTree.Size = new System.Drawing.Size(169, 92);
             this.cmenuInputTree.Opening += new System.ComponentModel.CancelEventHandler(this.cmenuInputTree_Opening);
             this.cmenuInputTree.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.cmenuInuptTree_ItemClicked);
             // 
@@ -360,27 +363,27 @@ namespace WebServiceStudio
             // 
             this.itemSaveInput.Name = "itemSaveInput";
             this.itemSaveInput.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.itemSaveInput.Size = new System.Drawing.Size(162, 22);
+            this.itemSaveInput.Size = new System.Drawing.Size(168, 22);
             this.itemSaveInput.Text = "SaveInput";
             // 
             // itemLoadInput
             // 
             this.itemLoadInput.Name = "itemLoadInput";
             this.itemLoadInput.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.itemLoadInput.Size = new System.Drawing.Size(162, 22);
+            this.itemLoadInput.Size = new System.Drawing.Size(168, 22);
             this.itemLoadInput.Text = "LoadInput";
             // 
             // itemFind1
             // 
             this.itemFind1.Name = "itemFind1";
             this.itemFind1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.itemFind1.Size = new System.Drawing.Size(162, 22);
+            this.itemFind1.Size = new System.Drawing.Size(168, 22);
             this.itemFind1.Text = "Find";
             // 
             // itemLoadValueField
             // 
             this.itemLoadValueField.Name = "itemLoadValueField";
-            this.itemLoadValueField.Size = new System.Drawing.Size(162, 22);
+            this.itemLoadValueField.Size = new System.Drawing.Size(168, 22);
             this.itemLoadValueField.Text = "LoadValueField";
             // 
             // labelInput
@@ -394,7 +397,7 @@ namespace WebServiceStudio
             // buttonInvoke
             // 
             this.buttonInvoke.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonInvoke.Location = new System.Drawing.Point(287, 200);
+            this.buttonInvoke.Location = new System.Drawing.Point(326, 268);
             this.buttonInvoke.Name = "buttonInvoke";
             this.buttonInvoke.Size = new System.Drawing.Size(56, 20);
             this.buttonInvoke.TabIndex = 4;
@@ -404,7 +407,7 @@ namespace WebServiceStudio
             // txtInvokeTimes
             // 
             this.txtInvokeTimes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtInvokeTimes.Location = new System.Drawing.Point(227, 201);
+            this.txtInvokeTimes.Location = new System.Drawing.Point(266, 269);
             this.txtInvokeTimes.Name = "txtInvokeTimes";
             this.txtInvokeTimes.Size = new System.Drawing.Size(43, 20);
             this.txtInvokeTimes.TabIndex = 5;
@@ -428,7 +431,7 @@ namespace WebServiceStudio
             this.propInput.Location = new System.Drawing.Point(3, 29);
             this.propInput.Name = "propInput";
             this.propInput.PropertySort = System.Windows.Forms.PropertySort.NoSort;
-            this.propInput.Size = new System.Drawing.Size(349, 196);
+            this.propInput.Size = new System.Drawing.Size(388, 264);
             this.propInput.TabIndex = 1;
             this.propInput.ToolbarVisible = false;
             this.propInput.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.propInput_PropertyValueChanged);
@@ -452,15 +455,15 @@ namespace WebServiceStudio
             // 
             this.splitterOutput.Panel2.Controls.Add(this.propOutput);
             this.splitterOutput.Panel2.Controls.Add(this.labelOutputValue);
-            this.splitterOutput.Size = new System.Drawing.Size(732, 238);
-            this.splitterOutput.SplitterDistance = 372;
+            this.splitterOutput.Size = new System.Drawing.Size(810, 309);
+            this.splitterOutput.SplitterDistance = 411;
             this.splitterOutput.TabIndex = 0;
             // 
             // chkCollapse
             // 
             this.chkCollapse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.chkCollapse.AutoSize = true;
-            this.chkCollapse.Location = new System.Drawing.Point(250, 7);
+            this.chkCollapse.Location = new System.Drawing.Point(289, 7);
             this.chkCollapse.Name = "chkCollapse";
             this.chkCollapse.Size = new System.Drawing.Size(80, 17);
             this.chkCollapse.TabIndex = 3;
@@ -484,7 +487,7 @@ namespace WebServiceStudio
             this.treeOutput.ContextMenuStrip = this.cmenuOutputTree;
             this.treeOutput.Location = new System.Drawing.Point(0, 26);
             this.treeOutput.Name = "treeOutput";
-            this.treeOutput.Size = new System.Drawing.Size(365, 205);
+            this.treeOutput.Size = new System.Drawing.Size(404, 276);
             this.treeOutput.TabIndex = 2;
             this.treeOutput.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeOutput_AfterSelect);
             this.treeOutput.MouseClick += new System.Windows.Forms.MouseEventHandler(this.treeOutput_MouseClick);
@@ -497,34 +500,34 @@ namespace WebServiceStudio
             this.itemFind,
             this.toggleExpandCollapseToolStripMenuItem});
             this.cmenuOutputTree.Name = "cmenuSave";
-            this.cmenuOutputTree.Size = new System.Drawing.Size(190, 92);
+            this.cmenuOutputTree.Size = new System.Drawing.Size(203, 92);
             this.cmenuOutputTree.Opening += new System.ComponentModel.CancelEventHandler(this.cmenuOutputTree_Opening);
             this.cmenuOutputTree.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.cmenuOutputTree_ItemClicked);
             // 
             // itemSaveVauleField
             // 
             this.itemSaveVauleField.Name = "itemSaveVauleField";
-            this.itemSaveVauleField.Size = new System.Drawing.Size(189, 22);
+            this.itemSaveVauleField.Size = new System.Drawing.Size(202, 22);
             this.itemSaveVauleField.Text = "SaveValueField";
             // 
             // itemSaveOutput
             // 
             this.itemSaveOutput.Name = "itemSaveOutput";
             this.itemSaveOutput.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.itemSaveOutput.Size = new System.Drawing.Size(189, 22);
+            this.itemSaveOutput.Size = new System.Drawing.Size(202, 22);
             this.itemSaveOutput.Text = "SaveOutput";
             // 
             // itemFind
             // 
             this.itemFind.Name = "itemFind";
             this.itemFind.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.itemFind.Size = new System.Drawing.Size(189, 22);
+            this.itemFind.Size = new System.Drawing.Size(202, 22);
             this.itemFind.Text = "Find";
             // 
             // toggleExpandCollapseToolStripMenuItem
             // 
             this.toggleExpandCollapseToolStripMenuItem.Name = "toggleExpandCollapseToolStripMenuItem";
-            this.toggleExpandCollapseToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.toggleExpandCollapseToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.toggleExpandCollapseToolStripMenuItem.Text = "Toggle Expand/Collapse";
             this.toggleExpandCollapseToolStripMenuItem.Click += new System.EventHandler(this.toggleExpandCollapseToolStripMenuItem_Click);
             // 
@@ -538,7 +541,7 @@ namespace WebServiceStudio
             this.propOutput.Location = new System.Drawing.Point(3, 25);
             this.propOutput.Name = "propOutput";
             this.propOutput.PropertySort = System.Windows.Forms.PropertySort.NoSort;
-            this.propOutput.Size = new System.Drawing.Size(346, 206);
+            this.propOutput.Size = new System.Drawing.Size(385, 277);
             this.propOutput.TabIndex = 3;
             this.propOutput.ToolbarVisible = false;
             // 
@@ -556,7 +559,7 @@ namespace WebServiceStudio
             this.panelLeftInvoke.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftInvoke.Location = new System.Drawing.Point(0, 0);
             this.panelLeftInvoke.Name = "panelLeftInvoke";
-            this.panelLeftInvoke.Size = new System.Drawing.Size(208, 482);
+            this.panelLeftInvoke.Size = new System.Drawing.Size(208, 621);
             this.panelLeftInvoke.TabIndex = 2;
             // 
             // treeMethods
@@ -566,7 +569,7 @@ namespace WebServiceStudio
             this.treeMethods.HideSelection = false;
             this.treeMethods.Location = new System.Drawing.Point(0, 0);
             this.treeMethods.Name = "treeMethods";
-            this.treeMethods.Size = new System.Drawing.Size(208, 482);
+            this.treeMethods.Size = new System.Drawing.Size(208, 621);
             this.treeMethods.TabIndex = 0;
             this.treeMethods.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeMethods_AfterSelect);
             // 
@@ -575,7 +578,7 @@ namespace WebServiceStudio
             this.cmenuMethodTree.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             itemFind2});
             this.cmenuMethodTree.Name = "cmenuSave";
-            this.cmenuMethodTree.Size = new System.Drawing.Size(133, 26);
+            this.cmenuMethodTree.Size = new System.Drawing.Size(138, 26);
             this.cmenuMethodTree.Opening += new System.ComponentModel.CancelEventHandler(this.cmenuMethodTree_Opening);
             this.cmenuMethodTree.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.cmenuMethodTree_ItemClicked);
             // 
@@ -586,7 +589,7 @@ namespace WebServiceStudio
             this.tabPageWsdl.Controls.Add(this.panelLeftWsdl);
             this.tabPageWsdl.Location = new System.Drawing.Point(4, 22);
             this.tabPageWsdl.Name = "tabPageWsdl";
-            this.tabPageWsdl.Size = new System.Drawing.Size(944, 482);
+            this.tabPageWsdl.Size = new System.Drawing.Size(1022, 621);
             this.tabPageWsdl.TabIndex = 2;
             this.tabPageWsdl.Tag = "";
             this.tabPageWsdl.Text = "WSDLs & Proxy";
@@ -596,7 +599,7 @@ namespace WebServiceStudio
             // 
             this.splitterWsdl.Location = new System.Drawing.Point(208, 0);
             this.splitterWsdl.Name = "splitterWsdl";
-            this.splitterWsdl.Size = new System.Drawing.Size(3, 482);
+            this.splitterWsdl.Size = new System.Drawing.Size(3, 621);
             this.splitterWsdl.TabIndex = 0;
             this.splitterWsdl.TabStop = false;
             // 
@@ -606,7 +609,7 @@ namespace WebServiceStudio
             this.panelRightWsdl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRightWsdl.Location = new System.Drawing.Point(208, 0);
             this.panelRightWsdl.Name = "panelRightWsdl";
-            this.panelRightWsdl.Size = new System.Drawing.Size(736, 482);
+            this.panelRightWsdl.Size = new System.Drawing.Size(814, 621);
             this.panelRightWsdl.TabIndex = 1;
             // 
             // richWsdl
@@ -617,7 +620,7 @@ namespace WebServiceStudio
             this.richWsdl.Location = new System.Drawing.Point(0, 0);
             this.richWsdl.Name = "richWsdl";
             this.richWsdl.ReadOnly = true;
-            this.richWsdl.Size = new System.Drawing.Size(736, 482);
+            this.richWsdl.Size = new System.Drawing.Size(814, 621);
             this.richWsdl.TabIndex = 0;
             this.richWsdl.Text = "";
             this.richWsdl.WordWrap = false;
@@ -627,7 +630,7 @@ namespace WebServiceStudio
             this.cmenuRichWsdl.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             itemCopyAsmIssue});
             this.cmenuRichWsdl.Name = "cmenuSave";
-            this.cmenuRichWsdl.Size = new System.Drawing.Size(146, 26);
+            this.cmenuRichWsdl.Size = new System.Drawing.Size(153, 26);
             this.cmenuRichWsdl.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.cmenuRichWsdl_ItemClicked);
             // 
             // panelLeftWsdl
@@ -636,7 +639,7 @@ namespace WebServiceStudio
             this.panelLeftWsdl.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftWsdl.Location = new System.Drawing.Point(0, 0);
             this.panelLeftWsdl.Name = "panelLeftWsdl";
-            this.panelLeftWsdl.Size = new System.Drawing.Size(208, 482);
+            this.panelLeftWsdl.Size = new System.Drawing.Size(208, 621);
             this.panelLeftWsdl.TabIndex = 2;
             // 
             // treeWsdl
@@ -644,7 +647,7 @@ namespace WebServiceStudio
             this.treeWsdl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeWsdl.Location = new System.Drawing.Point(0, 0);
             this.treeWsdl.Name = "treeWsdl";
-            this.treeWsdl.Size = new System.Drawing.Size(208, 482);
+            this.treeWsdl.Size = new System.Drawing.Size(208, 621);
             this.treeWsdl.TabIndex = 0;
             this.treeWsdl.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeWsdl_AfterSelect);
             // 
@@ -653,7 +656,7 @@ namespace WebServiceStudio
             this.tabPageMessage.Controls.Add(this.richMessage);
             this.tabPageMessage.Location = new System.Drawing.Point(4, 22);
             this.tabPageMessage.Name = "tabPageMessage";
-            this.tabPageMessage.Size = new System.Drawing.Size(944, 482);
+            this.tabPageMessage.Size = new System.Drawing.Size(1022, 621);
             this.tabPageMessage.TabIndex = 3;
             this.tabPageMessage.Tag = "";
             this.tabPageMessage.Text = "Messages";
@@ -665,7 +668,7 @@ namespace WebServiceStudio
             this.richMessage.Location = new System.Drawing.Point(0, 0);
             this.richMessage.Name = "richMessage";
             this.richMessage.ReadOnly = true;
-            this.richMessage.Size = new System.Drawing.Size(944, 482);
+            this.richMessage.Size = new System.Drawing.Size(1022, 621);
             this.richMessage.TabIndex = 0;
             this.richMessage.Text = "";
             // 
@@ -676,7 +679,7 @@ namespace WebServiceStudio
             this.tabPageRaw.Controls.Add(this.panelLeftRaw);
             this.tabPageRaw.Location = new System.Drawing.Point(4, 22);
             this.tabPageRaw.Name = "tabPageRaw";
-            this.tabPageRaw.Size = new System.Drawing.Size(944, 482);
+            this.tabPageRaw.Size = new System.Drawing.Size(1022, 621);
             this.tabPageRaw.TabIndex = 1;
             this.tabPageRaw.Text = "Request/Response";
             this.tabPageRaw.UseVisualStyleBackColor = true;
@@ -686,7 +689,7 @@ namespace WebServiceStudio
             this.splitterRaw.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitterRaw.Location = new System.Drawing.Point(208, 0);
             this.splitterRaw.Name = "splitterRaw";
-            this.splitterRaw.Size = new System.Drawing.Size(3, 482);
+            this.splitterRaw.Size = new System.Drawing.Size(3, 621);
             this.splitterRaw.TabIndex = 0;
             this.splitterRaw.TabStop = false;
             // 
@@ -700,13 +703,14 @@ namespace WebServiceStudio
             this.panelRightRaw.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRightRaw.Location = new System.Drawing.Point(208, 0);
             this.panelRightRaw.Name = "panelRightRaw";
-            this.panelRightRaw.Size = new System.Drawing.Size(736, 482);
+            this.panelRightRaw.Size = new System.Drawing.Size(814, 621);
             this.panelRightRaw.TabIndex = 1;
             // 
             // buttonSend
             // 
+            this.buttonSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonSend.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonSend.Location = new System.Drawing.Point(843, 314);
+            this.buttonSend.Location = new System.Drawing.Point(737, 314);
             this.buttonSend.Name = "buttonSend";
             this.buttonSend.Size = new System.Drawing.Size(56, 24);
             this.buttonSend.TabIndex = 0;
@@ -715,19 +719,24 @@ namespace WebServiceStudio
             // 
             // richRequest
             // 
-            this.richRequest.Location = new System.Drawing.Point(9, 24);
+            this.richRequest.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richRequest.Location = new System.Drawing.Point(13, 24);
             this.richRequest.Name = "richRequest";
-            this.richRequest.Size = new System.Drawing.Size(890, 272);
+            this.richRequest.Size = new System.Drawing.Size(793, 285);
             this.richRequest.TabIndex = 0;
             this.richRequest.Text = "";
             this.richRequest.WordWrap = false;
             // 
             // richResponse
             // 
+            this.richResponse.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.richResponse.Location = new System.Drawing.Point(12, 344);
             this.richResponse.Name = "richResponse";
             this.richResponse.ReadOnly = true;
-            this.richResponse.Size = new System.Drawing.Size(887, 312);
+            this.richResponse.Size = new System.Drawing.Size(794, 274);
             this.richResponse.TabIndex = 1;
             this.richResponse.Text = "";
             this.richResponse.WordWrap = false;
@@ -754,7 +763,7 @@ namespace WebServiceStudio
             this.panelLeftRaw.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftRaw.Location = new System.Drawing.Point(0, 0);
             this.panelLeftRaw.Name = "panelLeftRaw";
-            this.panelLeftRaw.Size = new System.Drawing.Size(208, 482);
+            this.panelLeftRaw.Size = new System.Drawing.Size(208, 621);
             this.panelLeftRaw.TabIndex = 2;
             this.panelLeftRaw.SizeChanged += new System.EventHandler(this.PanelLeftRaw_SizeChanged);
             // 
@@ -766,7 +775,7 @@ namespace WebServiceStudio
             this.propRequest.Location = new System.Drawing.Point(0, 0);
             this.propRequest.Name = "propRequest";
             this.propRequest.PropertySort = System.Windows.Forms.PropertySort.Alphabetical;
-            this.propRequest.Size = new System.Drawing.Size(208, 482);
+            this.propRequest.Size = new System.Drawing.Size(208, 621);
             this.propRequest.TabIndex = 0;
             this.propRequest.ToolbarVisible = false;
             // 
@@ -784,7 +793,7 @@ namespace WebServiceStudio
             this.tabMain.Location = new System.Drawing.Point(0, 0);
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
-            this.tabMain.Size = new System.Drawing.Size(952, 508);
+            this.tabMain.Size = new System.Drawing.Size(1030, 647);
             this.tabMain.TabIndex = 0;
             this.tabMain.SelectedIndexChanged += new System.EventHandler(this.tabMain_SelectedIndexChanged);
             // 
@@ -795,15 +804,16 @@ namespace WebServiceStudio
             this.tabPageBatchConfig.Controls.Add(this.textBox1);
             this.tabPageBatchConfig.Location = new System.Drawing.Point(4, 22);
             this.tabPageBatchConfig.Name = "tabPageBatchConfig";
-            this.tabPageBatchConfig.Size = new System.Drawing.Size(944, 482);
+            this.tabPageBatchConfig.Size = new System.Drawing.Size(1022, 621);
             this.tabPageBatchConfig.TabIndex = 5;
             this.tabPageBatchConfig.Text = "BatchConfig";
             this.tabPageBatchConfig.UseVisualStyleBackColor = true;
             // 
             // btnStart
             // 
+            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnStart.Location = new System.Drawing.Point(323, 612);
+            this.btnStart.Location = new System.Drawing.Point(389, 577);
             this.btnStart.Name = "btnStart";
             this.btnStart.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnStart.Size = new System.Drawing.Size(60, 24);
@@ -813,8 +823,9 @@ namespace WebServiceStudio
             // 
             // btnSave1
             // 
+            this.btnSave1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSave1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSave1.Location = new System.Drawing.Point(675, 612);
+            this.btnSave1.Location = new System.Drawing.Point(501, 577);
             this.btnSave1.Name = "btnSave1";
             this.btnSave1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnSave1.Size = new System.Drawing.Size(60, 24);
@@ -824,10 +835,13 @@ namespace WebServiceStudio
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(8, 3);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1099, 587);
+            this.textBox1.Size = new System.Drawing.Size(1006, 552);
             this.textBox1.TabIndex = 1;
             // 
             // panelTopMain
@@ -838,22 +852,26 @@ namespace WebServiceStudio
             this.panelTopMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopMain.Location = new System.Drawing.Point(0, 0);
             this.panelTopMain.Name = "panelTopMain";
-            this.panelTopMain.Size = new System.Drawing.Size(952, 158);
+            this.panelTopMain.Size = new System.Drawing.Size(1030, 158);
             this.panelTopMain.TabIndex = 0;
             // 
             // pnlSimplifiedView
             // 
+            this.pnlSimplifiedView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSimplifiedView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlSimplifiedView.Controls.Add(this.buttonGet);
             this.pnlSimplifiedView.Controls.Add(this.textEndPointUri);
             this.pnlSimplifiedView.Controls.Add(this.labelEndPointUrl);
             this.pnlSimplifiedView.Location = new System.Drawing.Point(6, 116);
             this.pnlSimplifiedView.Name = "pnlSimplifiedView";
-            this.pnlSimplifiedView.Size = new System.Drawing.Size(705, 34);
+            this.pnlSimplifiedView.Size = new System.Drawing.Size(782, 34);
             this.pnlSimplifiedView.TabIndex = 19;
             // 
             // pnlAdvancedView
             // 
+            this.pnlAdvancedView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlAdvancedView.Controls.Add(this.AutoPopulateChk);
             this.pnlAdvancedView.Controls.Add(this.ServerCBox);
             this.pnlAdvancedView.Controls.Add(this.AutoGetChk);
@@ -869,14 +887,15 @@ namespace WebServiceStudio
             this.pnlAdvancedView.Controls.Add(this.label1);
             this.pnlAdvancedView.Location = new System.Drawing.Point(4, 25);
             this.pnlAdvancedView.Name = "pnlAdvancedView";
-            this.pnlAdvancedView.Size = new System.Drawing.Size(942, 127);
+            this.pnlAdvancedView.Size = new System.Drawing.Size(1019, 127);
             this.pnlAdvancedView.TabIndex = 18;
             this.pnlAdvancedView.TabStop = false;
             // 
             // AutoPopulateChk
             // 
+            this.AutoPopulateChk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.AutoPopulateChk.AutoSize = true;
-            this.AutoPopulateChk.Location = new System.Drawing.Point(612, 45);
+            this.AutoPopulateChk.Location = new System.Drawing.Point(689, 45);
             this.AutoPopulateChk.Name = "AutoPopulateChk";
             this.AutoPopulateChk.Size = new System.Drawing.Size(93, 17);
             this.AutoPopulateChk.TabIndex = 29;
@@ -885,17 +904,20 @@ namespace WebServiceStudio
             // 
             // ServerCBox
             // 
+            this.ServerCBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ServerCBox.FormattingEnabled = true;
             this.ServerCBox.Location = new System.Drawing.Point(112, 12);
             this.ServerCBox.Name = "ServerCBox";
-            this.ServerCBox.Size = new System.Drawing.Size(474, 21);
+            this.ServerCBox.Size = new System.Drawing.Size(551, 21);
             this.ServerCBox.TabIndex = 17;
             this.ServerCBox.SelectedIndexChanged += new System.EventHandler(this.ServerCBox_SelectedIndexChanged);
             // 
             // AutoGetChk
             // 
+            this.AutoGetChk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.AutoGetChk.AutoSize = true;
-            this.AutoGetChk.Location = new System.Drawing.Point(612, 71);
+            this.AutoGetChk.Location = new System.Drawing.Point(689, 71);
             this.AutoGetChk.Name = "AutoGetChk";
             this.AutoGetChk.Size = new System.Drawing.Size(68, 17);
             this.AutoGetChk.TabIndex = 22;
@@ -913,7 +935,8 @@ namespace WebServiceStudio
             // 
             // btnBatchUpdateLocalAssembly
             // 
-            this.btnBatchUpdateLocalAssembly.Location = new System.Drawing.Point(720, 93);
+            this.btnBatchUpdateLocalAssembly.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBatchUpdateLocalAssembly.Location = new System.Drawing.Point(797, 93);
             this.btnBatchUpdateLocalAssembly.Name = "btnBatchUpdateLocalAssembly";
             this.btnBatchUpdateLocalAssembly.Size = new System.Drawing.Size(207, 24);
             this.btnBatchUpdateLocalAssembly.TabIndex = 27;
@@ -922,7 +945,8 @@ namespace WebServiceStudio
             // 
             // btnAddBatchUpdateAssemblyUri
             // 
-            this.btnAddBatchUpdateAssemblyUri.Location = new System.Drawing.Point(720, 61);
+            this.btnAddBatchUpdateAssemblyUri.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddBatchUpdateAssemblyUri.Location = new System.Drawing.Point(797, 61);
             this.btnAddBatchUpdateAssemblyUri.Name = "btnAddBatchUpdateAssemblyUri";
             this.btnAddBatchUpdateAssemblyUri.Size = new System.Drawing.Size(207, 24);
             this.btnAddBatchUpdateAssemblyUri.TabIndex = 26;
@@ -931,7 +955,8 @@ namespace WebServiceStudio
             // 
             // btnUpdateLocalAssembly
             // 
-            this.btnUpdateLocalAssembly.Location = new System.Drawing.Point(720, 30);
+            this.btnUpdateLocalAssembly.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnUpdateLocalAssembly.Location = new System.Drawing.Point(797, 30);
             this.btnUpdateLocalAssembly.Name = "btnUpdateLocalAssembly";
             this.btnUpdateLocalAssembly.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnUpdateLocalAssembly.Size = new System.Drawing.Size(207, 24);
@@ -941,8 +966,9 @@ namespace WebServiceStudio
             // 
             // chkLocalAssembly
             // 
+            this.chkLocalAssembly.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.chkLocalAssembly.AutoSize = true;
-            this.chkLocalAssembly.Location = new System.Drawing.Point(721, 12);
+            this.chkLocalAssembly.Location = new System.Drawing.Point(798, 12);
             this.chkLocalAssembly.Name = "chkLocalAssembly";
             this.chkLocalAssembly.Size = new System.Drawing.Size(121, 17);
             this.chkLocalAssembly.TabIndex = 23;
@@ -951,7 +977,8 @@ namespace WebServiceStudio
             // 
             // btnPopulate
             // 
-            this.btnPopulate.Location = new System.Drawing.Point(612, 12);
+            this.btnPopulate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPopulate.Location = new System.Drawing.Point(689, 12);
             this.btnPopulate.Name = "btnPopulate";
             this.btnPopulate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnPopulate.Size = new System.Drawing.Size(70, 24);
@@ -961,10 +988,12 @@ namespace WebServiceStudio
             // 
             // cmbModule
             // 
+            this.cmbModule.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbModule.FormattingEnabled = true;
             this.cmbModule.Location = new System.Drawing.Point(112, 68);
             this.cmbModule.Name = "cmbModule";
-            this.cmbModule.Size = new System.Drawing.Size(474, 21);
+            this.cmbModule.Size = new System.Drawing.Size(551, 21);
             this.cmbModule.TabIndex = 20;
             this.cmbModule.SelectedIndexChanged += new System.EventHandler(this.cmbModule_SelectedIndexChanged);
             // 
@@ -979,10 +1008,12 @@ namespace WebServiceStudio
             // 
             // cmbVersion
             // 
+            this.cmbVersion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbVersion.FormattingEnabled = true;
             this.cmbVersion.Location = new System.Drawing.Point(112, 41);
             this.cmbVersion.Name = "cmbVersion";
-            this.cmbVersion.Size = new System.Drawing.Size(474, 21);
+            this.cmbVersion.Size = new System.Drawing.Size(551, 21);
             this.cmbVersion.TabIndex = 19;
             this.cmbVersion.SelectedIndexChanged += new System.EventHandler(this.cmbVersion_SelectedIndexChanged);
             // 
@@ -1004,7 +1035,7 @@ namespace WebServiceStudio
             this.helpToolStripMenuItem});
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
-            this.msMain.Size = new System.Drawing.Size(952, 24);
+            this.msMain.Size = new System.Drawing.Size(1030, 24);
             this.msMain.TabIndex = 17;
             this.msMain.Text = "menuStrip1";
             // 
@@ -1129,12 +1160,12 @@ namespace WebServiceStudio
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(104, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.menuItemAbout_Click);
             // 
@@ -1144,7 +1175,7 @@ namespace WebServiceStudio
             this.panelBottomMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBottomMain.Location = new System.Drawing.Point(0, 158);
             this.panelBottomMain.Name = "panelBottomMain";
-            this.panelBottomMain.Size = new System.Drawing.Size(952, 508);
+            this.panelBottomMain.Size = new System.Drawing.Size(1030, 647);
             this.panelBottomMain.TabIndex = 1;
             // 
             // imgList
@@ -1158,7 +1189,7 @@ namespace WebServiceStudio
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(952, 666);
+            this.ClientSize = new System.Drawing.Size(1030, 805);
             this.Controls.Add(this.panelBottomMain);
             this.Controls.Add(this.panelTopMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

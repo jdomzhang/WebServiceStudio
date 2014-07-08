@@ -91,7 +91,7 @@ namespace WebServiceStudio
             set { defaultAutoPopulate = value; }
         }
 
-        private bool autoSetSpecified;
+        private bool autoSetSpecified=true;
 
         [XmlAttribute]
         public bool AutoSetSpecified
